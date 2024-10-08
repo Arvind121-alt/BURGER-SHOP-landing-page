@@ -1,0 +1,158 @@
+body{
+    background-image: url(karsten-winegeart-QzXHv2S4-l0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header img{
+    height: 100px;
+    width:100px;
+    position:relative;
+    border-radius: 50%;
+    display: inline;
+}
+header p{
+    display: inline;
+    position: relative;
+    top:-50px;
+    margin-left: 10px;
+    font-size: large;
+    font-family: cursive;
+    color:blanchedalmond
+}
+nav li{
+    display: inline;
+    margin-left: 50px;
+    font-size: larger;
+}
+nav ul{
+    margin-left: 550px;
+}
+nav{
+    display:inline-block;
+    position: relative;
+    top:-50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color:grey;
+}
+nav a:hover{
+    color:whitesmoke;
+}
+.name{
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color:aquamarine;
+}
+.burger h2{
+    color:cornsilk;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    
+}
+.burger{
+    height:200px;
+    width:500px;
+    display: inline-block;
+}
+.burger p{
+    color:#EEDF7A;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+
+}
+.burger img{
+    display:inline;
+    position:absolute;
+    left:870px;
+    top:300px;
+    height:500px;
+    width:400px;
+    border-radius: 20px;
+}
+div .burger{
+    border: 2px solid aqua;
+
+}
+.scroll-container {
+    display:inline;
+    overflow-x:scroll;
+    padding: 50px;
+    gap: 20px;
+    scroll-behavior: smooth;
+    margin-left: 50px;
+}
+
+.scroll-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-left: 40px;
+}
+
+.scroll-container img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.variety{
+    color:chartreuse;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    padding: 150px;
+}
+.order button{
+    background-color:red;
+    color: white;
+    height: 50px;
+    margin-left:50%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+footer{
+    font-size: 30px;
+    color:cyan;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.burgers{
+    display:flex;
+    margin-left: 60px;
+}
+.burgers h1{
+    height:100px;
+    width:100px;
+    text-align: center;
+    margin-left: 70px;
+    color:#E7CCCC;
+
+}
+.burgers h2{
+    text-align: center;
+    margin-top:-30px;
+    color:#EDE8DC
+}
+/* .three{
+    display: flex;
+    justify-content: center;
+
+}*/
+.four{
+margin-left: 40%;}
+i{
+    margin-left: 19px;
+    display: flex;
+    color: black;
+    font-size: 60px;
+    color:#EDE8DC;
+    margin-bottom: 50px;
+}
